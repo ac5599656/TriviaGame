@@ -1,0 +1,211 @@
+body {
+    /*    background-image: url("images/background.png");*/
+        background-color: cadetblue;
+        padding-left: 30px;
+        color: black;
+        margin: 0;    
+        font-size: 16px;
+        font-family: 'Roboto', helvetica, sans-serif;
+     
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
+    main {
+        padding-top: 100px;
+    }
+    .heading{
+        text-align:center;        
+        padding:25px;
+    }
+    .container{
+        min-width:50%;    
+        margin: auto;
+          
+    }
+    .container img{
+        max-width: 15%;
+        height: auto;
+        margin: 0, auto;    
+    }
+    
+    .container section, .container p, .container h1 {
+        text-align: left;
+    }
+    .picture img{
+        max-width: 3%;    
+    }
+    
+    .A,.B{
+        font-weight: bold;
+        padding: 15px 8px;  
+        margin-right: 5px;
+        font-size: 25px;    
+    }
+    .form{
+        margin: 0 25px 0 0;
+        padding-left: 15px;
+        border: 1px solid black;
+        background-color:  #e6ffff;
+    }
+    .form label {
+        display: block;
+        margin-bottom: 5px;
+        margin-left: 3px;
+    }
+    
+    .form input, .form select {
+        display: block;
+        width: 250px;
+        margin-bottom: 15px;
+    }
+    
+    
+    .form input[type="radio"],
+    .form input[type="radio"]+label {
+        display: inline-block;   
+        width: auto;
+    }
+    
+    .form input {
+        padding: 3px;
+    }
+    
+    .form input::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
+        color: gray;
+    }
+    
+    .form input:-moz-placeholder { /* Firefox 18- */
+        color: gray;
+    }
+    
+    .form input::-moz-placeholder { /* Firefox 19+ */
+        color: gray;
+    }
+    
+    .form input:-ms-input-placeholder { /* IE 10+ */
+        color: gray;
+    }
+    
+    .form select {
+        cursor: pointer;
+    }
+    
+    
+    .form input:invalid {
+        border: 2px red solid;
+    }
+    .form section {
+        margin-bottom:10px;
+    }
+    .questions{
+        font-weight: bold;
+    }
+    .feedback{
+        background-color:#f4ffdc;
+        width: 25%;
+        margin:5px auto 5px auto;
+        text-align: center;
+    }
+    .enter {
+        margin-top: 20px;
+        margin-right: 5px;    
+        width: 100px;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        float: left;   
+        background-color:#f4ffdc;     
+        border: 1px solid black; 
+          
+    }
+    
+    .next{
+        margin-top: 20px;
+        margin-left: auto; 
+        margin-right: auto;    
+        width: 100px;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color:#f4ffdc;     
+        border: 1px solid black;
+    }
+    
+    .text-center{
+        text-align: center;
+    }
+    .float-left{
+        float:left;
+        width:100%;
+    }
+    
+    .submit{
+        margin-top: 10px; 
+        background-color:#f4ffdc;    
+        width: 300px;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;  
+        font-size: 20px; 
+        line-height: 20px; 
+        border: 1px solid black; 
+        padding-top: 15px;
+        padding-bottom: 15px;
+        
+    }
+    
+    .restart{
+        margin-top: 20px;
+        margin-bottom: 10px;    
+        width: 100px;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color:#f4ffdc;     
+        border: 1px solid black; 
+    }
+    
+    
+    .result{
+        width: 50%;
+        height: 80%;    
+        margin: auto;    
+        padding:25px;    
+        background-color: #e6ffff;
+        border: 1px solid black;    
+        text-align: center;    
+    }
+    
+    .hidden{
+        display: none;
+        
+    }
+    
+    @media only screen and (max-width:640px){
+        
+        .container img{
+            max-width: 40%;
+        }
+        .picture img{
+            max-width: 8%;
+        }
+        .form{
+            padding-right: 2%;
+        }
+        
+        .feedback{
+            width:70%;    
+        }
+        
+        .result{
+            width:auto;
+            margin-right: 8%;
+        }
+    }
+    
+    
+  
+  
