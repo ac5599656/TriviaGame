@@ -28,23 +28,23 @@ const SOURCE = [
     {
         question: 'What is universal health care?',
         choices: [{
-            choice: 'A health care system that does not provides health care and financial protection to all citizens of a particular country.',
+            choice: 'A health care system that does not provides health care and financial protection to all citizens of a particular country',
             type: 2
         },
         {
-            choice: 'A health care system that provide health care but provide financial protection to all citizens of a particular country.',
+            choice: 'A health care system that provide health care but provide financial protection to all citizens of a particular country',
             type: 1
         },
         {
-            choice: 'a health care system that provides health care and does not provide financial protection to all citizens of a particular country.',
+            choice: 'a health care system that provides health care and does not provide financial protection to all citizens of a particular country',
             type: 2
         },
         {
-            choice: 'a health care system that does not provide health care and financial protection to all citizens of a particular country.',
+            choice: 'a health care system that does not provide health care and financial protection to all citizens of a particular country',
             type: 2
         },
         {
-            choice: 'a health care system that does provide health care and and not financial protection to all citizens of a particular country.',
+            choice: 'a health care system that does provide health care and and not financial protection to all citizens of a particular country',
             type: 2
         }
         ]

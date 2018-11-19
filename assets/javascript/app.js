@@ -52,7 +52,7 @@ function decrement() {
         //  ...run the stop function.
         stop();
         //feedback when the timer runs out of time
-        $('.feedback').html(`You did not select an answer. The right answer is ${SOURCE[currentQuestion].choices[currentQuestion].choice}.`);
+        $('.feedback').html(`You did not select an answer. The right answer: ${SOURCE[currentQuestion].choices[currentQuestion].choice}.`);
         //hide questions, answers,scores and timer
         $('.score, .questions, .answers').hide();
         $('#show-number').hide();
@@ -107,7 +107,7 @@ function submit() {
         //the score, question, answers, and timer are hidden from the user
         else if (answer == 2) {
 
-            $('.feedback').html(`You selected the wrong answer. The right answer is ${SOURCE[currentQuestion].choices[currentQuestion].choice}.`);
+            $('.feedback').html(`You selected the wrong answer. The right answer: ${SOURCE[currentQuestion].choices[currentQuestion].choice}.`);
             $('.score, .questions, .answers').hide();
             $('#show-number').hide();
             numB++;
