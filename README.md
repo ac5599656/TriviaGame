@@ -20,7 +20,7 @@ correct answer.
 
 ## More Description
 The problem with the app was the next question happens before users can answer.  To correct the situation,
-the next function was called inside the submit function and setTimeout to use delay the next function.
+the next function was called inside the submit function and setTimeout was used to delay the next function.
 
 ## Technology Used
 
